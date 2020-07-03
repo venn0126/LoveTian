@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A06312DF95BDA71F4FFDB03EF7770DC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 292722BED2F121F917F99FC4960729D1 /* ReplaceMe.m */; };
+		68948FDB592178C0A93AD85DE5993BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B74323A4961DB99664C9D1F66F5B29E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C11878E13E395B384915C33DA159484E /* LoveTian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A08162458412824BC9A69A62ABED6EA7 /* LoveTian-dummy.m */; };
+		D0866B7C24AB6A8B1A86BA72D9F4D337 /* LoveTian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BD850A0494853C2C085B7231805196 /* LoveTian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65275C6424093429B3E859D3F02AB47 /* Pods-LoveTian_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1320B8063CA5D987D313C6F221433D42 /* Pods-LoveTian_Tests-dummy.m */; };
+		E8C003A7D223392B36AA86649CB2E2B9 /* Pods-LoveTian_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08C7ECE215539AD4D8277CA5112C9E /* Pods-LoveTian_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26A3641E01AFD83C7D874E811F3A903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9FED55FFA235678DF77375ECB9AD75;
+			remoteInfo = LoveTian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5019F862A5EAC6809A1D9A508FA04A /* LoveTian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoveTian.modulemap; sourceTree = "<group>"; };
+		10BD850A0494853C2C085B7231805196 /* LoveTian-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-umbrella.h"; sourceTree = "<group>"; };
+		1320B8063CA5D987D313C6F221433D42 /* Pods-LoveTian_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveTian_Tests-dummy.m"; sourceTree = "<group>"; };
+		19AB678C48F1EC11DED32F9AA2EE9326 /* Pods-LoveTian_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoveTian_Tests.modulemap"; sourceTree = "<group>"; };
+		292722BED2F121F917F99FC4960729D1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LoveTian/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36663043C58F3874EAE8CBCDE729E81F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C08C7ECE215539AD4D8277CA5112C9E /* Pods-LoveTian_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveTian_Tests-umbrella.h"; sourceTree = "<group>"; };
+		676F51AE2498DBA1B984407E4E6E21F4 /* LoveTian.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoveTian.xcconfig; sourceTree = "<group>"; };
+		73B8D1942853473BD1FF12FBCB27BE0C /* LoveTian-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-prefix.pch"; sourceTree = "<group>"; };
+		7EDB13F0D6D7129DEDB59CDBE1911CE7 /* LoveTian-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoveTian-Info.plist"; sourceTree = "<group>"; };
+		8C94A8EA8540F3373AA7262B6D0F5F64 /* Pods-LoveTian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		942298CF849CD3465878A1E93BF6C363 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		96DD71BE986911D3E426B08CBE7C9873 /* Pods-LoveTian_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTian_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08162458412824BC9A69A62ABED6EA7 /* LoveTian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoveTian-dummy.m"; sourceTree = "<group>"; };
+		BD6C15972FC8953FCBE4D23D8C04B17D /* Pods-LoveTian_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTian_Tests-Info.plist"; sourceTree = "<group>"; };
+		C6CC82CBD142B8065D36A1DE0D86F812 /* Pods_LoveTian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTian_Tests.framework; path = "Pods-LoveTian_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9F530DCAFC803E90BAD43EA3355A1E /* Pods-LoveTian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTian_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0455F7ADC11A828C520986E5548B4E /* LoveTian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoveTian.framework; path = LoveTian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCD0423931EED4D9CE65A8902D60CCB /* Pods-LoveTian_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTian_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D67A18409D4572DFD93B1C3BBD5D7475 /* Pods-LoveTian_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveTian_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAFA7F10F4C0E87B9EE2F697E176EB34 /* LoveTian.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoveTian.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9300A8739FE77FB193EB0DE76ADA264A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68948FDB592178C0A93AD85DE5993BDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E80901F8AD2547201FCCB680D3583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74323A4961DB99664C9D1F66F5B29E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAD1D563F77D7C375642161B4841705 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5019F862A5EAC6809A1D9A508FA04A /* LoveTian.modulemap */,
+				676F51AE2498DBA1B984407E4E6E21F4 /* LoveTian.xcconfig */,
+				A08162458412824BC9A69A62ABED6EA7 /* LoveTian-dummy.m */,
+				7EDB13F0D6D7129DEDB59CDBE1911CE7 /* LoveTian-Info.plist */,
+				73B8D1942853473BD1FF12FBCB27BE0C /* LoveTian-prefix.pch */,
+				10BD850A0494853C2C085B7231805196 /* LoveTian-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoveTian";
+			sourceTree = "<group>";
+		};
+		2DCCC3676DE4496A987ED26554EDBAED /* Pods-LoveTian_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19AB678C48F1EC11DED32F9AA2EE9326 /* Pods-LoveTian_Tests.modulemap */,
+				D67A18409D4572DFD93B1C3BBD5D7475 /* Pods-LoveTian_Tests-acknowledgements.markdown */,
+				CBCD0423931EED4D9CE65A8902D60CCB /* Pods-LoveTian_Tests-acknowledgements.plist */,
+				1320B8063CA5D987D313C6F221433D42 /* Pods-LoveTian_Tests-dummy.m */,
+				96DD71BE986911D3E426B08CBE7C9873 /* Pods-LoveTian_Tests-frameworks.sh */,
+				BD6C15972FC8953FCBE4D23D8C04B17D /* Pods-LoveTian_Tests-Info.plist */,
+				5C08C7ECE215539AD4D8277CA5112C9E /* Pods-LoveTian_Tests-umbrella.h */,
+				8C94A8EA8540F3373AA7262B6D0F5F64 /* Pods-LoveTian_Tests.debug.xcconfig */,
+				CA9F530DCAFC803E90BAD43EA3355A1E /* Pods-LoveTian_Tests.release.xcconfig */,
+			);
+			name = "Pods-LoveTian_Tests";
+			path = "Target Support Files/Pods-LoveTian_Tests";
+			sourceTree = "<group>";
+		};
+		82503A3C88A33C0303F1B182E1DD5C2A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				942298CF849CD3465878A1E93BF6C363 /* LICENSE */,
+				EAFA7F10F4C0E87B9EE2F697E176EB34 /* LoveTian.podspec */,
+				36663043C58F3874EAE8CBCDE729E81F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		937B3379569F2E580514D22956F10B6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCCC3676DE4496A987ED26554EDBAED /* Pods-LoveTian_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BAB19B1BA6942FC3E1C8DE5FF854B478 /* LoveTian */ = {
+			isa = PBXGroup;
+			children = (
+				292722BED2F121F917F99FC4960729D1 /* ReplaceMe.m */,
+				82503A3C88A33C0303F1B182E1DD5C2A /* Pod */,
+				0CAD1D563F77D7C375642161B4841705 /* Support Files */,
+			);
+			name = LoveTian;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C410F7CF488F3E429C605197BC5792D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAB19B1BA6942FC3E1C8DE5FF854B478 /* LoveTian */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C410F7CF488F3E429C605197BC5792D7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F7CB81CB626A93279A5B5023E39EDA5F /* Products */,
+				937B3379569F2E580514D22956F10B6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CB81CB626A93279A5B5023E39EDA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0455F7ADC11A828C520986E5548B4E /* LoveTian.framework */,
+				C6CC82CBD142B8065D36A1DE0D86F812 /* Pods_LoveTian_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2F1EF0A6C71CBE4479CF8C433051E22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C003A7D223392B36AA86649CB2E2B9 /* Pods-LoveTian_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6258E799AB7AF57FE50D11F75F5223D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0866B7C24AB6A8B1A86BA72D9F4D337 /* LoveTian-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14586D25D4A156117A2ECFC75DE274C7 /* Pods-LoveTian_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36BD07120771511F7DB1BA620B8265B /* Build configuration list for PBXNativeTarget "Pods-LoveTian_Tests" */;
+			buildPhases = (
+				D2F1EF0A6C71CBE4479CF8C433051E22 /* Headers */,
+				0026C2359FCC883C0E21470070C15763 /* Sources */,
+				9300A8739FE77FB193EB0DE76ADA264A /* Frameworks */,
+				AD24F6BB5D2EA51D7EC29CF288DBCAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08065AB3926D7CDA3A108BB55E83AEA /* PBXTargetDependency */,
+			);
+			name = "Pods-LoveTian_Tests";
+			productName = "Pods-LoveTian_Tests";
+			productReference = C6CC82CBD142B8065D36A1DE0D86F812 /* Pods_LoveTian_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A9FED55FFA235678DF77375ECB9AD75 /* LoveTian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAE7F5F918D5C895D98EAFC8A14C0EB /* Build configuration list for PBXNativeTarget "LoveTian" */;
+			buildPhases = (
+				E6258E799AB7AF57FE50D11F75F5223D /* Headers */,
+				B5CDAE5E4923DD0D022EBFDD45620C40 /* Sources */,
+				974E80901F8AD2547201FCCB680D3583 /* Frameworks */,
+				BC304209B3343A4A899ED6BA99A8FC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveTian;
+			productName = LoveTian;
+			productReference = CB0455F7ADC11A828C520986E5548B4E /* LoveTian.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7CB81CB626A93279A5B5023E39EDA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9FED55FFA235678DF77375ECB9AD75 /* LoveTian */,
+				14586D25D4A156117A2ECFC75DE274C7 /* Pods-LoveTian_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD24F6BB5D2EA51D7EC29CF288DBCAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC304209B3343A4A899ED6BA99A8FC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0026C2359FCC883C0E21470070C15763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65275C6424093429B3E859D3F02AB47 /* Pods-LoveTian_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CDAE5E4923DD0D022EBFDD45620C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11878E13E395B384915C33DA159484E /* LoveTian-dummy.m in Sources */,
+				1A06312DF95BDA71F4FFDB03EF7770DC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C08065AB3926D7CDA3A108BB55E83AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoveTian;
+			target = 2A9FED55FFA235678DF77375ECB9AD75 /* LoveTian */;
+			targetProxy = E26A3641E01AFD83C7D874E811F3A903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C01A43453667049873EB4CA041FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676F51AE2498DBA1B984407E4E6E21F4 /* LoveTian.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoveTian/LoveTian-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoveTian/LoveTian-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoveTian/LoveTian.modulemap";
+				PRODUCT_MODULE_NAME = LoveTian;
+				PRODUCT_NAME = LoveTian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C235F709C5B4DDEBB155B3ECDAD17AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9F530DCAFC803E90BAD43EA3355A1E /* Pods-LoveTian_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTian_Tests/Pods-LoveTian_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTian_Tests/Pods-LoveTian_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		324AA8F37E474883A873AD7237BB00AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676F51AE2498DBA1B984407E4E6E21F4 /* LoveTian.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoveTian/LoveTian-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoveTian/LoveTian-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoveTian/LoveTian.modulemap";
+				PRODUCT_MODULE_NAME = LoveTian;
+				PRODUCT_NAME = LoveTian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E0340BF63DE81496ACE1A4A05AC4F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C94A8EA8540F3373AA7262B6D0F5F64 /* Pods-LoveTian_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveTian_Tests/Pods-LoveTian_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveTian_Tests/Pods-LoveTian_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAE7F5F918D5C895D98EAFC8A14C0EB /* Build configuration list for PBXNativeTarget "LoveTian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C01A43453667049873EB4CA041FC9C /* Debug */,
+				324AA8F37E474883A873AD7237BB00AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36BD07120771511F7DB1BA620B8265B /* Build configuration list for PBXNativeTarget "Pods-LoveTian_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0340BF63DE81496ACE1A4A05AC4F9D /* Debug */,
+				2C235F709C5B4DDEBB155B3ECDAD17AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

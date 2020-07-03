@@ -1,0 +1,6 @@
+framework module LoveTian {
+  umbrella header "LoveTian-umbrella.h"
+
+  export *
+  module * { export * }
+}

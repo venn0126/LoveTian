@@ -1,0 +1,16 @@
+PODS:
+  - LoveTian (0.1.0)
+
+DEPENDENCIES:
+  - LoveTian (from `../`)
+
+EXTERNAL SOURCES:
+  LoveTian:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoveTian: 7407adb32b748f5bca889c4eb4be3100d9e55a94
+
+PODFILE CHECKSUM: 389b7188e322a8ae7e9b63059d6c927d63a73a56
+
+COCOAPODS: 1.8.4

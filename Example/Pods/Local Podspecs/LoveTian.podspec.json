@@ -1,0 +1,22 @@
+{
+  "name": "LoveTian",
+  "version": "0.1.0",
+  "summary": "A short description of LoveTian.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/venn/LoveTian",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "venn": "niuwei@fosafer.com"
+  },
+  "source": {
+    "git": "https://github.com/venn/LoveTian.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoveTian/Classes/**/*"
+}

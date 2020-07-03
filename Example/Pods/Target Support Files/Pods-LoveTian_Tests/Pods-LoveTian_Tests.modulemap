@@ -1,0 +1,6 @@
+framework module Pods_LoveTian_Tests {
+  umbrella header "Pods-LoveTian_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
