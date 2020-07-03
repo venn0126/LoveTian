@@ -1,6 +1,6 @@
 {
   "name": "LoveTian",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "niu love tian whenever and wherever",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/venn0126/LoveTian.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/venn0126/LoveTian.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

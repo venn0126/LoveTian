@@ -12,7 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PrintGT : NSObject
 
+/*love tian*/
 - (void)printGT;
+
+/*inclusive tian*/
+- (void)inclusiveGT;
 
 @end
 

@@ -1,5 +1,5 @@
 PODS:
-  - LoveTian (0.1.0)
+  - LoveTian (0.2.0)
 
 DEPENDENCIES:
   - LoveTian (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LoveTian: 81cd729945d965f51cfeb722122e06d77db2dc82
+  LoveTian: ddaff6526fb4b20ee843f759f1bd9f873d299fd5
 
-PODFILE CHECKSUM: 389b7188e322a8ae7e9b63059d6c927d63a73a56
+PODFILE CHECKSUM: 38b73d8c17bc1ac85e675c0abb89469f3eaa19b3
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

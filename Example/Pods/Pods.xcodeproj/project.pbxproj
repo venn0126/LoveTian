@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B3EDBAA677E3D29AC808E8AEFBE7BA5 /* PrintGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D720B93AB79123E378886E67C3DA536 /* PrintGT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F18BA6D0588559BE8C7887034D64C31 /* LoveTian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A0269E04B5FE20EE1CC62D13DEEF4F /* LoveTian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3EDBAA677E3D29AC808E8AEFBE7BA5 /* PrintGT.h in Headers */ = {isa = PBXBuildFile; fileRef = 4500637661671321C2DF2EACE2329FFE /* PrintGT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F18BA6D0588559BE8C7887034D64C31 /* LoveTian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7EE3CFA84BC0EF591EFA492137E317 /* LoveTian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68948FDB592178C0A93AD85DE5993BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B24D76251BD184D3781229F3479A51F6 /* PrintGT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF41DB13CDECE432220447764E07738 /* PrintGT.m */; };
+		B24D76251BD184D3781229F3479A51F6 /* PrintGT.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B6B9EEAC88C72EDCA86C3696488BB /* PrintGT.m */; };
 		E65275C6424093429B3E859D3F02AB47 /* Pods-LoveTian_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1320B8063CA5D987D313C6F221433D42 /* Pods-LoveTian_Tests-dummy.m */; };
-		E8233A91C3F49C19BE243953D0E9752D /* LoveTian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAC24A7FEE8A8F968597BED4C2ECE89 /* LoveTian-dummy.m */; };
+		E8233A91C3F49C19BE243953D0E9752D /* LoveTian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDFE4131851AF8CDA294E11F85F477A /* LoveTian-dummy.m */; };
 		E8C003A7D223392B36AA86649CB2E2B9 /* Pods-LoveTian_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08C7ECE215539AD4D8277CA5112C9E /* Pods-LoveTian_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FED6D426DE478707CB8606142601B7D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,28 +30,29 @@
 /* Begin PBXFileReference section */
 		1320B8063CA5D987D313C6F221433D42 /* Pods-LoveTian_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveTian_Tests-dummy.m"; sourceTree = "<group>"; };
 		19AB678C48F1EC11DED32F9AA2EE9326 /* Pods-LoveTian_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoveTian_Tests.modulemap"; sourceTree = "<group>"; };
-		20A0269E04B5FE20EE1CC62D13DEEF4F /* LoveTian-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-umbrella.h"; sourceTree = "<group>"; };
+		1DA5ACC2B92C6D78417F5CC67C4003B7 /* LoveTian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoveTian.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5AF41DB13CDECE432220447764E07738 /* PrintGT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrintGT.m; path = LoveTian/Classes/PrintGT.m; sourceTree = "<group>"; };
+		37CA02189BB55C0BB3ECC671050BB0DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3AB1924F3704AB6721FA4C2B9B45E9D5 /* LoveTian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoveTian.release.xcconfig; sourceTree = "<group>"; };
+		4500637661671321C2DF2EACE2329FFE /* PrintGT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrintGT.h; path = LoveTian/Classes/PrintGT.h; sourceTree = "<group>"; };
 		5C08C7ECE215539AD4D8277CA5112C9E /* Pods-LoveTian_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveTian_Tests-umbrella.h"; sourceTree = "<group>"; };
-		68A0DFCDF60845EFE34B90C8A79F5C10 /* LoveTian.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoveTian.xcconfig; sourceTree = "<group>"; };
-		7D720B93AB79123E378886E67C3DA536 /* PrintGT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrintGT.h; path = LoveTian/Classes/PrintGT.h; sourceTree = "<group>"; };
+		72A728E008A5AFA418F8CBBA98505E7B /* LoveTian-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoveTian-Info.plist"; sourceTree = "<group>"; };
+		881B6B9EEAC88C72EDCA86C3696488BB /* PrintGT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrintGT.m; path = LoveTian/Classes/PrintGT.m; sourceTree = "<group>"; };
 		8C94A8EA8540F3373AA7262B6D0F5F64 /* Pods-LoveTian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ED8E1B914BF25DAA30E32B2E7C115C5 /* LoveTian-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-prefix.pch"; sourceTree = "<group>"; };
 		96DD71BE986911D3E426B08CBE7C9873 /* Pods-LoveTian_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveTian_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D2BC338275702EC84704762F69EBB51 /* LoveTian-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoveTian-Info.plist"; sourceTree = "<group>"; };
+		9A58B4A5EB35D950B95D914EC4B37DCB /* LoveTian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoveTian.modulemap; sourceTree = "<group>"; };
+		9A7EE3CFA84BC0EF591EFA492137E317 /* LoveTian-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB024FC3B8FB63073CF5D35ECA96C187 /* LoveTian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoveTian.modulemap; sourceTree = "<group>"; };
 		BD6C15972FC8953FCBE4D23D8C04B17D /* Pods-LoveTian_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTian_Tests-Info.plist"; sourceTree = "<group>"; };
 		C6CC82CBD142B8065D36A1DE0D86F812 /* Pods_LoveTian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveTian_Tests.framework; path = "Pods-LoveTian_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6D4A9846AAAF8B6EE95FE9BBCD7D1A3 /* LoveTian.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoveTian.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8FE9EDB2138C19BA6062B618C92C290 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CA9F530DCAFC803E90BAD43EA3355A1E /* Pods-LoveTian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveTian_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB0455F7ADC11A828C520986E5548B4E /* LoveTian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoveTian.framework; path = LoveTian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCD0423931EED4D9CE65A8902D60CCB /* Pods-LoveTian_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveTian_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDAC24A7FEE8A8F968597BED4C2ECE89 /* LoveTian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoveTian-dummy.m"; sourceTree = "<group>"; };
-		D16CE3928BC0E2AAE94E954F24C7B6B6 /* LoveTian-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoveTian-prefix.pch"; sourceTree = "<group>"; };
+		D417E64B8209220BDF33E7A822FDFDB6 /* LoveTian.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoveTian.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D67A18409D4572DFD93B1C3BBD5D7475 /* Pods-LoveTian_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveTian_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9D4D03D67FAEB800343A5969AA9E4FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F47B0CD62C480FAEBD4A1884C6967E7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DCDFE4131851AF8CDA294E11F85F477A /* LoveTian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoveTian-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,36 +92,27 @@
 			path = "Target Support Files/Pods-LoveTian_Tests";
 			sourceTree = "<group>";
 		};
-		2FC5F5AA6ABD67A2FE6BCC916D0D73C3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB024FC3B8FB63073CF5D35ECA96C187 /* LoveTian.modulemap */,
-				68A0DFCDF60845EFE34B90C8A79F5C10 /* LoveTian.xcconfig */,
-				CDAC24A7FEE8A8F968597BED4C2ECE89 /* LoveTian-dummy.m */,
-				9D2BC338275702EC84704762F69EBB51 /* LoveTian-Info.plist */,
-				D16CE3928BC0E2AAE94E954F24C7B6B6 /* LoveTian-prefix.pch */,
-				20A0269E04B5FE20EE1CC62D13DEEF4F /* LoveTian-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LoveTian";
-			sourceTree = "<group>";
-		};
 		41EA442F01C1AAB4883FBABCC9CC9807 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB853FE14EFC061E6301B4BEC7120432 /* LoveTian */,
+				F1B3D1607F9D36F4B7A07866ECBB68E1 /* LoveTian */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		84B68BD803736DFD4BC15ADB430CFE6D /* Pod */ = {
+		866EE64AC731371F3FD8CE5DE9541947 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9D4D03D67FAEB800343A5969AA9E4FC /* LICENSE */,
-				C6D4A9846AAAF8B6EE95FE9BBCD7D1A3 /* LoveTian.podspec */,
-				F47B0CD62C480FAEBD4A1884C6967E7F /* README.md */,
+				9A58B4A5EB35D950B95D914EC4B37DCB /* LoveTian.modulemap */,
+				DCDFE4131851AF8CDA294E11F85F477A /* LoveTian-dummy.m */,
+				72A728E008A5AFA418F8CBBA98505E7B /* LoveTian-Info.plist */,
+				8ED8E1B914BF25DAA30E32B2E7C115C5 /* LoveTian-prefix.pch */,
+				9A7EE3CFA84BC0EF591EFA492137E317 /* LoveTian-umbrella.h */,
+				1DA5ACC2B92C6D78417F5CC67C4003B7 /* LoveTian.debug.xcconfig */,
+				3AB1924F3704AB6721FA4C2B9B45E9D5 /* LoveTian.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoveTian";
 			sourceTree = "<group>";
 		};
 		937B3379569F2E580514D22956F10B6E /* Targets Support Files */ = {
@@ -131,24 +123,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9E0B2E0CC31C45545084334F2BD705F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				37CA02189BB55C0BB3ECC671050BB0DA /* LICENSE */,
+				D417E64B8209220BDF33E7A822FDFDB6 /* LoveTian.podspec */,
+				C8FE9EDB2138C19BA6062B618C92C290 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CB853FE14EFC061E6301B4BEC7120432 /* LoveTian */ = {
-			isa = PBXGroup;
-			children = (
-				7D720B93AB79123E378886E67C3DA536 /* PrintGT.h */,
-				5AF41DB13CDECE432220447764E07738 /* PrintGT.m */,
-				84B68BD803736DFD4BC15ADB430CFE6D /* Pod */,
-				2FC5F5AA6ABD67A2FE6BCC916D0D73C3 /* Support Files */,
-			);
-			name = LoveTian;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -168,6 +158,18 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B3D1607F9D36F4B7A07866ECBB68E1 /* LoveTian */ = {
+			isa = PBXGroup;
+			children = (
+				4500637661671321C2DF2EACE2329FFE /* PrintGT.h */,
+				881B6B9EEAC88C72EDCA86C3696488BB /* PrintGT.m */,
+				9E0B2E0CC31C45545084334F2BD705F3 /* Pod */,
+				866EE64AC731371F3FD8CE5DE9541947 /* Support Files */,
+			);
+			name = LoveTian;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F7CB81CB626A93279A5B5023E39EDA5F /* Products */ = {
@@ -314,38 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		26FB8AC6C9039C077449E1D6A934A3D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68A0DFCDF60845EFE34B90C8A79F5C10 /* LoveTian.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LoveTian/LoveTian-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoveTian/LoveTian-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LoveTian/LoveTian.modulemap";
-				PRODUCT_MODULE_NAME = LoveTian;
-				PRODUCT_NAME = LoveTian;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2C235F709C5B4DDEBB155B3ECDAD17AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9F530DCAFC803E90BAD43EA3355A1E /* Pods-LoveTian_Tests.release.xcconfig */;
@@ -413,9 +383,9 @@
 			};
 			name = Debug;
 		};
-		826D310596C804A3FCCFB70DB071FB83 /* Debug */ = {
+		79A5BF30F98E74E5F647D2BCCE4C82E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68A0DFCDF60845EFE34B90C8A79F5C10 /* LoveTian.xcconfig */;
+			baseConfigurationReference = 3AB1924F3704AB6721FA4C2B9B45E9D5 /* LoveTian.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -439,10 +409,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -503,6 +474,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B0DFC3F07640EAFDD7B22403B3106568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA5ACC2B92C6D78417F5CC67C4003B7 /* LoveTian.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoveTian/LoveTian-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoveTian/LoveTian-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoveTian/LoveTian.modulemap";
+				PRODUCT_MODULE_NAME = LoveTian;
+				PRODUCT_NAME = LoveTian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -574,8 +576,8 @@
 		204D970B6198DBBD7E40CB443C24FFC9 /* Build configuration list for PBXNativeTarget "LoveTian" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				826D310596C804A3FCCFB70DB071FB83 /* Debug */,
-				26FB8AC6C9039C077449E1D6A934A3D4 /* Release */,
+				B0DFC3F07640EAFDD7B22403B3106568 /* Debug */,
+				79A5BF30F98E74E5F647D2BCCE4C82E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

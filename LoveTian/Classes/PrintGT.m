@@ -14,4 +14,9 @@
     NSLog(@"niu love tian");
 }
 
+
+- (void)inclusiveGT {
+    NSLog(@"niu inclusive tian");
+
+}
 @end
