@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PrintGT.h"
 
 FOUNDATION_EXPORT double LoveTianVersionNumber;
 FOUNDATION_EXPORT const unsigned char LoveTianVersionString[];
