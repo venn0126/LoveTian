@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LoveTian_Tests' do
+  pod 'LoveTian', :path => '../'
+  
+  
+end
